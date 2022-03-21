@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Press+Start+2P&display=swap');
+
+body{
+  background: linear-gradient(118.15deg, #00095D 2.48%, #693BEC 101.79%);
+  background-attachment: fixed;
+  height: 100%;
+}
+.container-todo{
+  background-color: #121520;
+  padding: 24px 16px 24px 16px;
+  border-radius: 16px;
+  margin-top: 80px;
+  margin-bottom : 80px;
+}
+h1{
+  font-family: 'Press Start 2P', cursive;
+  font-weight: normal;
+  font-size: 40px;
+  color: white;
+}
+.form-add{
+  margin-top: 24px;
+  
+}
+.form-add .form{
+  color: white;
+  background: #121520;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 50px;
+  outline: none;
+  height: 48px;
+  margin-right: -96px;
+  border: 3px solid;
+}
+.form-add button{
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+  border-radius: 0px 50px 50px 0px;
+  width: 96px;
+  border-top: 3px solid;
+  border-right: 3px solid;
+  border-bottom: 3px solid;
+  background: linear-gradient(90deg, #5200F3 0%, #8000EF 100%);
+  background-attachment: fixed;
+}
+.form-add button:hover{
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+  border-radius: 0px 50px 50px 0px;
+  width: 96px;
+  border-top: 3px solid;
+  border-right: 3px solid;
+  border-bottom: 3px solid;
+  background: linear-gradient(90deg, #4902d6 0%, #6402b9 100%);
+  background-attachment: fixed;
+}
+.button-select{
+  margin-top: 24px;
+}
+.button-tampil{
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+  width: 100%;
+  height: 48px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #5200F3 0%, #8000EF 100%);
+  background-attachment: fixed;
+}
+.button-tampil:hover{
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+  width: 100%;
+  height: 48px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #4902d6 0%, #6402b9 100%);
+  background-attachment: fixed;
+}
+.button-tampil:focus{
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+  width: 100%;
+  height: 48px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #CD5115 0%, #EB3A15 100%); 
+  background-attachment: fixed;
+}
+.list-activity-completed{
+  margin-top: 16px;
+  background: linear-gradient(90deg, #219AFC 0%, #1A6FF9 100%);
+  background-attachment: fixed;
+  border-radius: 16px;
+  width: 100%;
+  height: 72px;
+  padding: 24px 16px 24px 16px;
+}
+.list-activity-uncompleted{
+  margin-top: 16px;
+  background: linear-gradient(90deg, #CF00C8 0%, #E7007C 100%); 
+  border-radius: 16px;
+  width: 100%;
+  height: 72px;
+  padding: 24px 16px 24px 16px;
+}
+.list-activity p{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+}
+.checkbox{
+  width: 16px;
+  height: 16px;
+}
+span{
+  margin-left: 20px;
+}
+.modal-header{
+  background: linear-gradient(90deg, #5200F3 0%, #8000EF 97%);
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  color: white;
+}
+.modal-body{
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #121520;
+}
+.btn-save{
+  background: linear-gradient(90deg, #219AFC 0%, #1A6FF9 97%);
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
